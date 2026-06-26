@@ -165,7 +165,7 @@ export default function App() {
     <main className="main">
       {tab === 'home' && <section className="hero card">
         <div className="heroBadge"><Sparkles size={16}/> Live Control Room</div>
-        <h2>ליגת הניחושים הפרטית שנראית כמו אפליקציה אמיתית.</h2>
+        <h2>ליגת הניחושים הפרטית   .</h2>
         <p>משחקים, ניחושים, ג׳וקר, ניקוד, טבלה, אזור אישי, הישגים, צ׳אט ופאנל מנהל — הכול במקום אחד.</p>
         <div className="heroGrid">
           <Stat title="התקדמות המחזור" value={`${progress}%`} sub={`${predictedInRound}/${roundFixtures.length} משחקים`} />
